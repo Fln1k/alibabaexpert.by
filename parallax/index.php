@@ -527,28 +527,23 @@
 
             <div class="row">
                 <div class="col-lg-2"></div>
-                <div class="col-lg-9">
+                <div class="col-lg-8">
                     <br>
                     <center>
                         <p style=" font-weight: 800;
         font-size: 37px;
-        color:#ff6a24;">ЦЕНЫ И ТИПЫ АККАУНТОВ ALIBABA.COM</p>
+        color:#ff6a24;;">ЦЕНЫ И ТИПЫ АККАУНТОВ ALIBABA.COM</p>
                     </center>
                     <div id="content">
-                        <? if(check_mobile_device()) :?>
-                        	<div class="table" style="max-width: 100%; overflow: auto; ">
-                        <? else : ?>
-                            <div class="table" style="max-width: 100%;">
-                        <? endif; ?>
-
+                        <div class="table-responsive" style="max-width: 100%; overflow: auto;">
                             <table cellpadding="0" cellspacing="0" width="100%" class="lite-table">
                                 <tbody>
                                     <tr>
                                         <td style="background:none; text-align: center;" rowspan="2" class="td1 td3 height color1" width="276"></td>
                                         <td colspan="3" class="td1 height bold color3">Gold Supplier Membership</td>
+
                                         <td class="td1 td4 height bold color3" width="230">FREE Member</td>
                                     </tr>
-                                    
                                     <tr>
                                         <td class="height2 font16 color3">
                                             <div class="unhovered">Premium</div>
@@ -564,9 +559,9 @@
                                     </tr>
                                     <tr class="price">
                                         <td class="td3 color1 " style="font-size: 20px;">ЦЕНА ЗА 12 МЕСЯЦЕВ</td>
-                                        <td class=""><span class="mony">$5,999</span></td>
-                                        <td class="color3"><span class="mony">$2,999</span></td>
-                                        <td class="color3"><span class="mony">$1,399</span></td>
+                                        <td class=""><span class="mony">$ 5,999</span></td>
+                                        <td class="color3"><span class="mony">$ 2,999</span></td>
+                                        <td class="color3"><span class="mony">$ 1,399</span></td>
                                         <td class="td4 color3"><span class="free ">FREE</span></td>
                                     </tr>
                                     <tr>
@@ -584,7 +579,6 @@
                                             <a href="reg.php?type=Free" class="lite-btn white-btn ">Подать заявку</a>
                                         </td>
                                     </tr>
-                                    
                                     <tr>
                                         <td class="td3 color1 markets priority" data-placement="right" data-toggle="tooltip" title="Продукты от поставщиков Gold Suppiler будут иметь больше шансов появиться в верхней части результатов поиска покупателя.
                             90% покупателей будут просматривать только первые 3 страницы результатов поиска">Приоритет ранжирования<i class="fas fa-angle-right" style="padding-left: 7px;"></i></td>
@@ -664,7 +658,7 @@
                                     </tr>
                                     <tr>
                                         <td class="td3 font18 bold color1">
-                                           
+                                            <div class="other"><i class=""></i></div>
                                         </td>
                                         <td class="color3"></td>
                                         <td class="color3"></td>
@@ -714,9 +708,9 @@
 
                                     <tr class="price">
                                         <td class="td3 color1" style="font-size: 20px;">ЦЕНА ЗА 12 МЕСЯЦЕВ</td>
-                                        <td class="color3"><span class="mony">$5,999</span></td>
-                                        <td class="color3"><span class="mony">$2,999</span></td>
-                                        <td class="color3"><span class="mony">$1,399</span></td>
+                                        <td class="color3"><span class="mony">$ 5,999</span></td>
+                                        <td class="color3"><span class="mony">$ 2,999</span></td>
+                                        <td class="color3"><span class="mony">$ 1,399</span></td>
                                         <td class="td4 color3"><span class="free">FREE</span></td>
                                     </tr>
                                     <tr>
@@ -730,11 +724,6 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            <center><p style=" font-weight: 800;
-        font-size: 37px;
-        color:#ff6a24; margin: 0px;">Презентация</p>
-                                            <a target="_blank" href="Presentation.pdf" style="margin: 0px;"><img src="img/pdf.png"></a></center>
-                            
                         </div>
                     </div>
                 </div>
@@ -745,78 +734,99 @@
     </div>
     <div class="container" id="fixed8">
 
-        <h1 style="padding-top: 35px">НАШИ ПРОЕКТЫ</h1>
+        <h1 style="padding-top: 90px">НАШИ ПРОЕКТЫ</h1>
         <div class="our_projects">
             <!-- СТРОКА 1  -->
             <div class="row">
 
                 <!-- ПРОЕКТ 1  -->
-                <div class="col-lg-4" style="padding: 5px;">
-                    <div class="card"  style="border: none;">
-						<a target="_blank" href="https://by1074145041.trustpass.alibaba.com/productgrouplist-233028239/ARTIFICIAL_STONE.html?spm=a2700.icbuShop.88.23.2b1c5456pp6msh">
+                <div class="col-lg-4" style="padding-right:0;
+    padding-left:0;
+    margin-left: 0;
+    margin-right: 0">
+                    <div class="card">
+
                         <img class="card-img-top" src="img/stone.png" alt="Card image cap">
-         				 <div class="card-body">
-                            <h4 class="card-title" style="font-size: 25px; text-decoration: none;">Декоративный камень</h4>
+
+
+                        <div class="card-body">
+                            <h4 class="card-title" style="font-size: 25px;">Декоративный камень</h4>
+                            <center><a href="https://by1074145041.trustpass.alibaba.com/productgrouplist-233028239/ARTIFICIAL_STONE.html?spm=a2700.icbuShop.88.23.2b1c5456pp6msh" target="_blank" class="btn btn-primary">Перейти на
+                                    сайт</a></center>
                         </div>
-                    </a>
                     </div>
                 </div>
                 <!-- КОНЕЦ БЛОКА ПРОЕКТ 1 -->
                 <!-- ПРОЕКТ 2  -->
-                <div class="col-lg-4" style="padding: 5px;">
-                    <div class="card" style="border: none;">
-                    	<a target="_blank" href="https://by1074145041.trustpass.alibaba.com/productgrouplist-810418808/MOTORCYCLES_SCOOTERS.html?spm=a2700.icbuShop.88.22.44381b5dsIkXuz">
+                <div class="col-lg-4" style="padding-right:0;
+    padding-left:0;
+    margin-left: 0;
+    margin-right: 0">
+                    <div class="card">
                         <div class="view overlay">
                             <img class="card-img-top" src="img/moto1.png" alt="Card image cap">
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title" style="font-size: 25px; text-decoration: none;">ОАО «МОТОВЕЛО»</h4>
+                            <center><a href="https://by1074145041.trustpass.alibaba.com/productgrouplist-810418808/MOTORCYCLES_SCOOTERS.html?spm=a2700.icbuShop.88.22.44381b5dsIkXuz" target="_blank" class="btn btn-primary">Перейти
+                                на
+                                сайт</a></center>
 
                         </div>
-                                            </a>
+                        <div class="card-body">
+                            <h4 class="card-title" style="font-size: 25px;">ОАО «МОТОВЕЛО»</h4>
+
+                        </div>
 
                     </div>
 
                 </div>
                 <!-- КОНЕЦ БЛОКА ПРОЕКТ 2 -->
                 <!-- ПРОЕКТ 3  -->
-                <div class="col-lg-4" style="padding: 5px;">
+                <div class="col-lg-4" style="padding-right:0;
+    padding-left:0;
+    margin-left: 0;
+    margin-right: 0">
 
-                    <div class="card" style="border: none;">
-                        <a target="_blank" href="https://by1074145041.trustpass.alibaba.com/productgrouplist-810135582/BICYCLE.html?spm=a2700.icbuShop.98.6.5d905079HoJYys">
+                    <div class="card">
                         <div class="view overlay">
+
                             <img class="card-img-top" src="img/bike1.png" alt="Card image cap" class="img-fluid ">
+                            <center>
+                                <a href="https://by1074145041.trustpass.alibaba.com/productgrouplist-810135582/BICYCLE.html?spm=a2700.icbuShop.98.6.5d905079HoJYys" target="_blank" class="btn btn-primary ">Перейти
+                                на
+                                сайт</a></center>
                             <div class="card-body ">
-                                <h4 class="card-title" style="font-size: 25px; text-decoration: none;">ОАО «МОТОВЕЛО»</h4>
+                                <h4 class="card-title" style="font-size: 25px;">ОАО «МОТОВЕЛО»</h4>
                             </div>
                         </div>
-                    </a>
                     </div>
                 </div>
                 <!-- КОНЕЦ БЛОКА ПРОЕКТ 3 -->
                 <!-- ПРОЕКТ 4  -->
-                <div class="col-lg-4" style="padding: 5px;">
-                    <div class="card" style="border: none;">
-						<a target="_blank" href="https://ru1329549347yjgc.trustpass.alibaba.com/?spm=a2700.icbuShop.88.7.22836951AWxtks">
+                <div class="col-lg-4">
+                    <div class="card">
+
                         <img class="card-img-top" src="img/hologram.png" alt="Card image cap">
+
+
                         <div class="card-body">
-                            <h4 class="card-title" style="font-size: 25px; text-decoration: none;">Holographic machine</h4>
+                            <h4 class="card-title" style="font-size: 25px;">Holographic machine</h4>
+                            <center><a href="https://ru1329549347yjgc.trustpass.alibaba.com/?spm=a2700.icbuShop.88.7.22836951AWxtks" target="_blank" class="btn btn-primary">Перейти на
+                                    сайт</a></center>
                         </div>
-                    </a>
                     </div>
                 </div>
                 <!-- КОНЕЦ БЛОКА ПРОЕКТ 4 -->
                 <!-- ПРОЕКТ 5  -->
-                <div class="col-lg-4" style="padding: 5px;">
-                    <div class="card"  style="border: none;">
-					<a target="_blank" href="https://by1074145041.trustpass.alibaba.com/?spm=a2700.icbuShop.88.11.404050793groHL">
+                <div class="col-lg-4">
+                    <div class="card">
+
                         <img class="card-img-top" src="img/Alex.png" alt="Card image cap">
 
 
                         <div class="card-body">
-                            <h4 class="card-title" style="font-size: 25px; text-decoration: none;">Alex Wolk</h4>
+                            <h4 class="card-title" style="font-size: 25px;">Alex Wolk</h4>
+                            <center><a href="https://by1074145041.trustpass.alibaba.com/?spm=a2700.icbuShop.88.11.404050793groHL" target="_blank" class="btn btn-primary">Перейти на
+                                    сайт</a></center>
                         </div>
-                    </a>
                     </div>
                 </div>
                 <!-- КОНЕЦ БЛОКА ПРОЕКТ 5 -->
@@ -879,7 +889,7 @@
                     </div>
                     <div class="num_foo" style="font-size: 18px;font-weight: bold;">
 
-                        +37529 7290243<br><a href="https://mail.google.com/mail/u/0/#search/alex.bizby%40gmail.com" style="color: #fff; font-weight: bold; ">alex.bizby@gmail.com</a></a>
+                        +37529 7290243<br><a href="https://mail.google.com/mail/u/0/#search/alex.bizby%40gmail.com" style="color: #fff; font-weight: bold;">alex.bizby@gmail.com</a></a>
 
                     </div>
                 </div>
